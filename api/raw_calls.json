@@ -1,0 +1,187 @@
+{
+    "auth": "basic_auth",
+    "calls": {
+        "AAD": {
+            "doc_link": "https://docs.checkr.com/#section/Getting-Started/Create-a-Candidate",
+            "initialized": true,
+            "method": "post",
+            "name": "Create a Candidate",
+            "params": {
+                "AAF": {
+                    "key": "first_name",
+                    "private": true,
+                    "value": "Michael"
+                },
+                "AAG": {
+                    "key": "middle_name",
+                    "private": true,
+                    "value": "Gary"
+                },
+                "AAH": {
+                    "key": "last_name",
+                    "private": true,
+                    "value": "Scott"
+                },
+                "AAI": {
+                    "key": "email",
+                    "private": true,
+                    "value": "mssalama@msn.com"
+                },
+                "AAJ": {
+                    "key": "phone",
+                    "private": true,
+                    "value": "2035408926"
+                },
+                "AAK": {
+                    "key": "zipcode",
+                    "private": true,
+                    "value": "06831"
+                },
+                "AAL": {
+                    "key": "dob",
+                    "private": true,
+                    "value": "1964-03-15"
+                },
+                "AAM": {
+                    "key": "ssn",
+                    "private": true,
+                    "value": "111-11-2001"
+                },
+                "AAN": {
+                    "key": "driver_license_number",
+                    "private": true,
+                    "value": "981736076"
+                },
+                "AAO": {
+                    "key": "driver_license_state",
+                    "private": true,
+                    "value": "CT"
+                },
+                "AAP": {
+                    "key": "copy_requested",
+                    "private": true,
+                    "value": "true"
+                }
+            },
+            "publish_as": "action",
+            "rank": 0,
+            "ret_value": "api.1566436077146x670483864007213000.plugin_api.AAD",
+            "types": "{\"plugin_api.AAD\":{\"caption\":\"Create a Candidate\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"path\":[\"id\"]},\"_p_object\":{\"ret_value\":\"text\",\"caption\":\"object\",\"path\":[\"object\"]},\"_p_uri\":{\"ret_value\":\"text\",\"caption\":\"uri\",\"path\":[\"uri\"]},\"_p_created_at\":{\"ret_value\":\"date\",\"caption\":\"created_at\",\"path\":[\"created_at\"]},\"_p_first_name\":{\"ret_value\":\"text\",\"caption\":\"first_name\",\"path\":[\"first_name\"]},\"_p_last_name\":{\"ret_value\":\"text\",\"caption\":\"last_name\",\"path\":[\"last_name\"]},\"_p_middle_name\":{\"ret_value\":\"text\",\"caption\":\"middle_name\",\"path\":[\"middle_name\"]},\"_p_mother_maiden_name\":{\"ret_value\":\"text\",\"caption\":\"mother_maiden_name\",\"path\":[\"mother_maiden_name\"]},\"_p_dob\":{\"ret_value\":\"text\",\"caption\":\"dob\",\"path\":[\"dob\"]},\"_p_ssn\":{\"ret_value\":\"text\",\"caption\":\"ssn\",\"path\":[\"ssn\"]},\"_p_email\":{\"ret_value\":\"text\",\"caption\":\"email\",\"path\":[\"email\"]},\"_p_zipcode\":{\"ret_value\":\"text\",\"caption\":\"zipcode\",\"path\":[\"zipcode\"]},\"_p_phone\":{\"ret_value\":\"text\",\"caption\":\"phone\",\"path\":[\"phone\"]},\"_p_driver_license_state\":{\"ret_value\":\"text\",\"caption\":\"driver_license_state\",\"path\":[\"driver_license_state\"]},\"_p_driver_license_number\":{\"ret_value\":\"text\",\"caption\":\"driver_license_number\",\"path\":[\"driver_license_number\"]},\"_p_copy_requested\":{\"ret_value\":\"boolean\",\"caption\":\"copy_requested\",\"path\":[\"copy_requested\"]},\"_p_previous_driver_license_state\":{\"ret_value\":\"text\",\"caption\":\"previous_driver_license_state\",\"path\":[\"previous_driver_license_state\"]},\"_p_previous_driver_license_number\":{\"ret_value\":\"text\",\"caption\":\"previous_driver_license_number\",\"path\":[\"previous_driver_license_number\"]},\"_p_adjudication\":{\"ret_value\":\"text\",\"caption\":\"adjudication\",\"path\":[\"adjudication\"]},\"_p_custom_id\":{\"ret_value\":\"text\",\"caption\":\"custom_id\",\"path\":[\"custom_id\"]},\"_p_no_middle_name\":{\"ret_value\":\"boolean\",\"caption\":\"no_middle_name\",\"path\":[\"no_middle_name\"]},\"_p_updated_at\":{\"ret_value\":\"date\",\"caption\":\"updated_at\",\"path\":[\"updated_at\"]}}}}",
+            "url": "https://api.checkr.com/v1/candidates"
+        },
+        "AAS": {
+            "initialized": true,
+            "method": "post",
+            "name": "Create a Report",
+            "params": {
+                "AAT": {
+                    "doc": "https://docs.checkr.com/#tag/Packages",
+                    "key": "package",
+                    "private": true,
+                    "value": "driver_standard"
+                },
+                "AAU": {
+                    "key": "candidate_id",
+                    "private": true,
+                    "value": "a649fda8ff6c7a39ffd73bdb"
+                }
+            },
+            "publish_as": "action",
+            "rank": 1,
+            "ret_value": "api.1566436077146x670483864007213000.plugin_api.AAS",
+            "types": "{\"plugin_api.AAS\":{\"caption\":\"Create a Report\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"path\":[\"id\"]},\"_p_object\":{\"ret_value\":\"text\",\"caption\":\"object\",\"path\":[\"object\"]},\"_p_uri\":{\"ret_value\":\"text\",\"caption\":\"uri\",\"path\":[\"uri\"]},\"_p_status\":{\"ret_value\":\"text\",\"caption\":\"status\",\"path\":[\"status\"]},\"_p_created_at\":{\"ret_value\":\"date\",\"caption\":\"created_at\",\"path\":[\"created_at\"]},\"_p_completed_at\":{\"ret_value\":\"date\",\"caption\":\"completed_at\",\"path\":[\"completed_at\"]},\"_p_revised_at\":{\"ret_value\":\"date\",\"caption\":\"revised_at\",\"path\":[\"revised_at\"]},\"_p_upgraded_at\":{\"ret_value\":\"date\",\"caption\":\"upgraded_at\",\"path\":[\"upgraded_at\"]},\"_p_turnaround_time\":{\"ret_value\":\"text\",\"caption\":\"turnaround_time\",\"path\":[\"turnaround_time\"]},\"_p_due_time\":{\"ret_value\":\"date\",\"caption\":\"due_time\",\"path\":[\"due_time\"]},\"_p_package\":{\"ret_value\":\"text\",\"caption\":\"package\",\"path\":[\"package\"]},\"_p_adjudication\":{\"ret_value\":\"text\",\"caption\":\"adjudication\",\"path\":[\"adjudication\"]},\"_p_assessment\":{\"ret_value\":\"text\",\"caption\":\"assessment\",\"path\":[\"assessment\"]},\"_p_source\":{\"ret_value\":\"text\",\"caption\":\"source\",\"path\":[\"source\"]},\"_p_candidate_id\":{\"ret_value\":\"text\",\"caption\":\"candidate_id\",\"path\":[\"candidate_id\"]},\"_p_federal_criminal_search_id\":{\"ret_value\":\"text\",\"caption\":\"federal_criminal_search_id\",\"path\":[\"federal_criminal_search_id\"]},\"_p_global_watchlist_search_id\":{\"ret_value\":\"text\",\"caption\":\"global_watchlist_search_id\",\"path\":[\"global_watchlist_search_id\"]},\"_p_national_criminal_search_id\":{\"ret_value\":\"text\",\"caption\":\"national_criminal_search_id\",\"path\":[\"national_criminal_search_id\"]},\"_p_sex_offender_search_id\":{\"ret_value\":\"text\",\"caption\":\"sex_offender_search_id\",\"path\":[\"sex_offender_search_id\"]},\"_p_ssn_trace_id\":{\"ret_value\":\"text\",\"caption\":\"ssn_trace_id\",\"path\":[\"ssn_trace_id\"]},\"_p_terrorist_watchlist_search_id\":{\"ret_value\":\"text\",\"caption\":\"terrorist_watchlist_search_id\",\"path\":[\"terrorist_watchlist_search_id\"]},\"_p_facis_search_id\":{\"ret_value\":\"text\",\"caption\":\"facis_search_id\",\"path\":[\"facis_search_id\"]},\"_p_arrest_search_id\":{\"ret_value\":\"text\",\"caption\":\"arrest_search_id\",\"path\":[\"arrest_search_id\"]},\"_p_motor_vehicle_report_id\":{\"ret_value\":\"text\",\"caption\":\"motor_vehicle_report_id\",\"path\":[\"motor_vehicle_report_id\"]}}}}",
+            "url": "https://api.checkr.com/v1/reports"
+        },
+        "AAg": {
+            "doc_link": "https://docs.checkr.com/#tag/SSN-Trace",
+            "initialized": true,
+            "method": "get",
+            "name": "Retrieve an existing SSN Trace",
+            "publish_as": "data",
+            "rank": 2,
+            "ret_value": "api.1566436077146x670483864007213000.plugin_api.AAg",
+            "types": "{\"plugin_api.AAg\":{\"caption\":\"SSN Trace\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"path\":[\"id\"]},\"_p_object\":{\"ret_value\":\"text\",\"caption\":\"object\",\"path\":[\"object\"]},\"_p_uri\":{\"ret_value\":\"text\",\"caption\":\"uri\",\"path\":[\"uri\"]},\"_p_status\":{\"ret_value\":\"text\",\"caption\":\"status\",\"path\":[\"status\"]},\"_p_created_at\":{\"ret_value\":\"date\",\"caption\":\"created_at\",\"path\":[\"created_at\"]},\"_p_completed_at\":{\"ret_value\":\"date\",\"caption\":\"completed_at\",\"path\":[\"completed_at\"]},\"_p_turnaround_time\":{\"ret_value\":\"number\",\"caption\":\"turnaround_time\",\"path\":[\"turnaround_time\"]},\"_p_ssn\":{\"ret_value\":\"text\",\"caption\":\"ssn\",\"path\":[\"ssn\"]},\"_p_no_data\":{\"ret_value\":\"boolean\",\"caption\":\"no_data\",\"path\":[\"no_data\"]},\"_p_dob_mismatch\":{\"ret_value\":\"boolean\",\"caption\":\"dob_mismatch\",\"path\":[\"dob_mismatch\"]},\"_p_name_mismatch\":{\"ret_value\":\"boolean\",\"caption\":\"name_mismatch\",\"path\":[\"name_mismatch\"]},\"_p_fake_ssn\":{\"ret_value\":\"boolean\",\"caption\":\"fake_ssn\",\"path\":[\"fake_ssn\"]},\"_p_data_mismatch\":{\"ret_value\":\"boolean\",\"caption\":\"data_mismatch\",\"path\":[\"data_mismatch\"]},\"_p_thin_file\":{\"ret_value\":\"boolean\",\"caption\":\"thin_file\",\"path\":[\"thin_file\"]},\"_p_invalid_issuance_year\":{\"ret_value\":\"boolean\",\"caption\":\"invalid_issuance_year\",\"path\":[\"invalid_issuance_year\"]},\"_p_death_index\":{\"ret_value\":\"boolean\",\"caption\":\"death_index\",\"path\":[\"death_index\"]},\"_p_ssn_already_taken\":{\"ret_value\":\"boolean\",\"caption\":\"ssn_already_taken\",\"path\":[\"ssn_already_taken\"]},\"_p_addresses\":{\"ret_value\":\"list.api.1566436077146x670483864007213000.plugin_api.AAg.addresses\",\"caption\":\"addresses\",\"path\":[\"addresses\"]}}},\"plugin_api.AAg.addresses\":{\"caption\":\"SSN Trace addresse\",\"fields\":{\"_p_street\":{\"ret_value\":\"text\",\"caption\":\"street\",\"path\":[\"street\"]},\"_p_unit\":{\"ret_value\":\"text\",\"caption\":\"unit\",\"path\":[\"unit\"]},\"_p_city\":{\"ret_value\":\"text\",\"caption\":\"city\",\"path\":[\"city\"]},\"_p_state\":{\"ret_value\":\"text\",\"caption\":\"state\",\"path\":[\"state\"]},\"_p_zipcode\":{\"ret_value\":\"text\",\"caption\":\"zipcode\",\"path\":[\"zipcode\"]},\"_p_county\":{\"ret_value\":\"text\",\"caption\":\"county\",\"path\":[\"county\"]},\"_p_from_date\":{\"ret_value\":\"text\",\"caption\":\"from_date\",\"path\":[\"from_date\"]},\"_p_to_date\":{\"ret_value\":\"text\",\"caption\":\"to_date\",\"path\":[\"to_date\"]}}}}",
+            "url": "https://api.checkr.com/v1/ssn_traces/[ssn_traces_id]",
+            "url_params": {
+                "AAm": {
+                    "key": "ssn_traces_id",
+                    "private": true,
+                    "value": "5d5df9ee2a089400336d4991"
+                }
+            }
+        },
+        "AAn": {
+            "initialized": true,
+            "method": "get",
+            "name": "Retrieve an existing Sex Offender Registry Search",
+            "publish_as": "data",
+            "rank": 3,
+            "ret_value": "api.1566436077146x670483864007213000.plugin_api.AAn",
+            "types": "{\"plugin_api.AAn\":{\"caption\":\"Sex Offender Registry Search\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"path\":[\"id\"]},\"_p_object\":{\"ret_value\":\"text\",\"caption\":\"object\",\"path\":[\"object\"]},\"_p_uri\":{\"ret_value\":\"text\",\"caption\":\"uri\",\"path\":[\"uri\"]},\"_p_status\":{\"ret_value\":\"text\",\"caption\":\"status\",\"path\":[\"status\"]},\"_p_created_at\":{\"ret_value\":\"date\",\"caption\":\"created_at\",\"path\":[\"created_at\"]},\"_p_completed_at\":{\"ret_value\":\"date\",\"caption\":\"completed_at\",\"path\":[\"completed_at\"]},\"_p_turnaround_time\":{\"ret_value\":\"number\",\"caption\":\"turnaround_time\",\"path\":[\"turnaround_time\"]}}}}",
+            "url": "https://api.checkr.com/v1/sex_offender_searches/[sex_offender_searches_id]",
+            "url_params": {
+                "AAs": {
+                    "key": "sex_offender_searches_id",
+                    "private": true,
+                    "value": "5d5df9ee2a089400336d4998"
+                }
+            }
+        },
+        "AAt": {
+            "doc_link": "https://docs.checkr.com/#tag/Global-Watchlist-Search",
+            "initialized": true,
+            "method": "get",
+            "name": "Retrieve an existing Global Watchlist Search",
+            "publish_as": "data",
+            "rank": 4,
+            "ret_value": "api.1566436077146x670483864007213000.plugin_api.AAt",
+            "types": "{\"plugin_api.AAt\":{\"caption\":\"Global Watchlist Search\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"path\":[\"id\"]},\"_p_object\":{\"ret_value\":\"text\",\"caption\":\"object\",\"path\":[\"object\"]},\"_p_uri\":{\"ret_value\":\"text\",\"caption\":\"uri\",\"path\":[\"uri\"]},\"_p_status\":{\"ret_value\":\"text\",\"caption\":\"status\",\"path\":[\"status\"]},\"_p_created_at\":{\"ret_value\":\"date\",\"caption\":\"created_at\",\"path\":[\"created_at\"]},\"_p_completed_at\":{\"ret_value\":\"date\",\"caption\":\"completed_at\",\"path\":[\"completed_at\"]},\"_p_turnaround_time\":{\"ret_value\":\"number\",\"caption\":\"turnaround_time\",\"path\":[\"turnaround_time\"]}}}}",
+            "url": "https://api.checkr.com/v1/global_watchlist_searches/[global_watchlist_searches_id]",
+            "url_params": {
+                "AAx": {
+                    "key": "global_watchlist_searches_id",
+                    "private": true,
+                    "value": "5d5df9ee2a089400336d4999"
+                }
+            }
+        },
+        "AAy": {
+            "doc_link": "https://docs.checkr.com/#tag/National-Criminal-Search",
+            "initialized": true,
+            "method": "get",
+            "name": "Retrieve an existing National Criminal Search",
+            "publish_as": "data",
+            "rank": 5,
+            "ret_value": "api.1566436077146x670483864007213000.plugin_api.AAy",
+            "types": "{\"plugin_api.AAy\":{\"caption\":\"National Criminal Search\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"path\":[\"id\"]},\"_p_object\":{\"ret_value\":\"text\",\"caption\":\"object\",\"path\":[\"object\"]},\"_p_uri\":{\"ret_value\":\"text\",\"caption\":\"uri\",\"path\":[\"uri\"]},\"_p_status\":{\"ret_value\":\"text\",\"caption\":\"status\",\"path\":[\"status\"]},\"_p_created_at\":{\"ret_value\":\"date\",\"caption\":\"created_at\",\"path\":[\"created_at\"]},\"_p_completed_at\":{\"ret_value\":\"date\",\"caption\":\"completed_at\",\"path\":[\"completed_at\"]},\"_p_turnaround_time\":{\"ret_value\":\"number\",\"caption\":\"turnaround_time\",\"path\":[\"turnaround_time\"]}}}}",
+            "url": "https://api.checkr.com/v1/national_criminal_searches/[national_criminal_searches_id]",
+            "url_params": {
+                "ABC": {
+                    "key": "national_criminal_searches_id",
+                    "private": true,
+                    "value": "5d5df9ee2a089400336d4996"
+                }
+            }
+        },
+        "ABD": {
+            "initialized": true,
+            "method": "get",
+            "name": "Retrieve an existing Motor Vehicle Report",
+            "publish_as": "data",
+            "rank": 6,
+            "ret_value": "api.1566436077146x670483864007213000.plugin_api.ABD",
+            "types": "{\"plugin_api.ABD\":{\"caption\":\"Motor Vehicle Report\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"path\":[\"id\"]},\"_p_object\":{\"ret_value\":\"text\",\"caption\":\"object\",\"path\":[\"object\"]},\"_p_uri\":{\"ret_value\":\"text\",\"caption\":\"uri\",\"path\":[\"uri\"]},\"_p_status\":{\"ret_value\":\"text\",\"caption\":\"status\",\"path\":[\"status\"]},\"_p_created_at\":{\"ret_value\":\"date\",\"caption\":\"created_at\",\"path\":[\"created_at\"]},\"_p_completed_at\":{\"ret_value\":\"date\",\"caption\":\"completed_at\",\"path\":[\"completed_at\"]},\"_p_turnaround_time\":{\"ret_value\":\"text\",\"caption\":\"turnaround_time\",\"path\":[\"turnaround_time\"]},\"_p_full_name\":{\"ret_value\":\"text\",\"caption\":\"full_name\",\"path\":[\"full_name\"]},\"_p_license_number\":{\"ret_value\":\"text\",\"caption\":\"license_number\",\"path\":[\"license_number\"]},\"_p_license_state\":{\"ret_value\":\"text\",\"caption\":\"license_state\",\"path\":[\"license_state\"]},\"_p_license_status\":{\"ret_value\":\"text\",\"caption\":\"license_status\",\"path\":[\"license_status\"]},\"_p_license_type\":{\"ret_value\":\"text\",\"caption\":\"license_type\",\"path\":[\"license_type\"]},\"_p_license_class\":{\"ret_value\":\"text\",\"caption\":\"license_class\",\"path\":[\"license_class\"]},\"_p_expiration_date\":{\"ret_value\":\"text\",\"caption\":\"expiration_date\",\"path\":[\"expiration_date\"]},\"_p_issued_date\":{\"ret_value\":\"text\",\"caption\":\"issued_date\",\"path\":[\"issued_date\"]},\"_p_first_issued_date\":{\"ret_value\":\"text\",\"caption\":\"first_issued_date\",\"path\":[\"first_issued_date\"]},\"_p_inferred_issued_date\":{\"ret_value\":\"text\",\"caption\":\"inferred_issued_date\",\"path\":[\"inferred_issued_date\"]},\"_p_previous_license_number\":{\"ret_value\":\"text\",\"caption\":\"previous_license_number\",\"path\":[\"previous_license_number\"]},\"_p_previous_license_state\":{\"ret_value\":\"text\",\"caption\":\"previous_license_state\",\"path\":[\"previous_license_state\"]},\"_p_not_found\":{\"ret_value\":\"boolean\",\"caption\":\"not_found\",\"path\":[\"not_found\"]},\"_p_experience_failed\":{\"ret_value\":\"boolean\",\"caption\":\"experience_failed\",\"path\":[\"experience_failed\"]},\"_p_dob\":{\"ret_value\":\"text\",\"caption\":\"dob\",\"path\":[\"dob\"]}}}}",
+            "url": "https://api.checkr.com/v1/motor_vehicle_reports/[motor_vehicle_reports_id]",
+            "url_params": {
+                "ABH": {
+                    "doc": "https://docs.checkr.com/#tag/Motor-Vehicle-Report",
+                    "key": "motor_vehicle_reports_id",
+                    "private": true,
+                    "value": "5d5df9ee2a089400336d4997"
+                }
+            }
+        }
+    },
+    "human": "Checkr",
+    "token_param_name": "32b1bb93a11eb1bceb305bf35ebe4acb6847f447"
+}

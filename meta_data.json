@@ -1,0 +1,12 @@
+{
+    "categories": {
+        "0": "customer support",
+        "1": "technical"
+    },
+    "description": "Checkr is a modern, RESTful API-driven background screening service. The Checkr API uses resource-oriented URLs, supports HTTPS authentication and HTTPS verbs, and leverages JSON in all responses passed back to customers.\n\nCheckr is used by over 10,000 customers in a wide variety of industries, and supports a range of screening products and candidate workflows. For a full list of our screenings, please see the Checkr Screenings section below or read the Checkr Help Center articles on Screening Types.\n\n",
+    "image": "//s3.amazonaws.com/appforest_uf/f1566438379132x211171172869403460/checkr-squarelogo-1508366203446.png",
+    "license": "open_source",
+    "link": "https://docs.checkr.com/",
+    "name": "checkr",
+    "plugin_instructions": "1- Once your Checkr account has been created, your API keys will be available in the Checkr Dashboard, in the Account Settings > Developer Settings\n\n2- Use your API key as the username and an empty password"
+}
